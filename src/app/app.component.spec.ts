@@ -1,5 +1,5 @@
-import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import {TestBed} from '@angular/core/testing';
+import {AppComponent} from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-crash'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-crash');
+    expect(app.title).toEqual('task-tracker');
   });
 
   it('should render title', () => {
